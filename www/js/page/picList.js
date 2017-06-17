@@ -6,11 +6,7 @@ function swipeEvent(direction) {
       alert('右');
       location.href = "page/camera.html";
     } else if (direction == 'left'){
-       alert('左');
+      alert('左');
       location.href = "page/picSelect.html";
-    } else if (direction == 'up'){
-      alert('上');
-    } else if (direction == 'down'){
-       alert('下');
     }
 }

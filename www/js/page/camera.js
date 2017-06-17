@@ -5,11 +5,7 @@ function swipeEvent(direction) {
     if (direction == 'right'){
       alert('右');
     } else if (direction == 'left'){
-       alert('左');
+      alert('左');	
       location.href = "../index.html";
-    } else if (direction == 'up'){
-      alert('上');
-    } else if (direction == 'down'){
-       alert('下');
     }
 }

@@ -1,6 +1,7 @@
 // This is a JavaScript file
 
 $(function() {
+  console.log('jquuery OK!')
   $('#contents').on('touchstart', onTouchStart); //指が触れたか検知
   $('#contents').on('touchmove', onTouchMove); //指が動いたか検知
   $('#contents').on('touchend', onTouchEnd); //指が離れたか検知
